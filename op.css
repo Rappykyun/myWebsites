@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8; /* Updated background color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 1rem 0;
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 7px;
+    padding: 5px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    height: 10px;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    width: 48%;
+}
+
+h1 {
+    color: #333;
+    font-size: 50px;
+}
+
+#tribute-info {
+    color: #333;
+    margin-top: 20px;
+}
+
+#img-div {
+    width: 48%;
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+#img-caption {
+    margin-top: 10px;
+    color: #666;
+}
+
+#bio,
+#contri,
+#quote {
+    margin-top: 40px; /* Added margin for better spacing between sections */
+}
+
+h2 {
+    color: #333;
+}
+
+#bio p,
+#contri p {
+    color: #333;
+    line-height: 1.6;
+}
+
+#quote blockquote {
+    background-color: #f2f2f2; /* Added background color for quotes */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#quote blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+#tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    background-color: #ccc;
+    color: #333;
+}
